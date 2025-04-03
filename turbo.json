@@ -3,16 +3,13 @@
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": ["dist/**"]
     },
     "fix": {
       "dependsOn": ["^fix"]
     },
     "lint": {
       "dependsOn": ["^lint"]
-    },
-    "prettier": {
-      "dependsOn": ["^prettier"]
     },
     "environment": {
       "dependsOn": ["^environment"]
