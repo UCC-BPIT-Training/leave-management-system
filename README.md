@@ -68,7 +68,7 @@ Create a simple Leave Management System that allows anyone to:
 
 - Use a simple table to display the list
 - Dropdown or select for filtering status
-- Date picker or input type=date for date range
+- Date picker or `input type=date` for date range
 - Use a modal or a separate page for filing or updating requests
 
 ## 👀 Evaluation Focus
