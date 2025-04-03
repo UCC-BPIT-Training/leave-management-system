@@ -1,4 +1,4 @@
-import { errorHandlerMiddleware } from '#app/middleware/index.js';
+import { errorHandlerMiddleware } from '#src/middleware/index.js';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import express from 'express';

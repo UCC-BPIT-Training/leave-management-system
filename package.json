@@ -5,7 +5,9 @@
   "type": "module",
   "packageManager": "npm@10.9.2",
   "scripts": {
-    "dev": "turbo run dev"
+    "dev": "turbo run dev",
+    "environment": "turbo run environment",
+    "env": "npm run environment"
   },
   "workspaces": [
     "apps/*"
