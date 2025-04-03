@@ -8,8 +8,8 @@
     "dev": "turbo run dev",
     "environment": "turbo run environment",
     "env": "npm run environment",
-    "prettier": "prettier --check './**/*.{js,mjs,cjs,json}'",
-    "prettier:fix": "prettier --write './**/*.{js,mjs,cjs,json}'",
+    "prettier": "prettier --check './apps/**/*.{js,mjs,cjs,json}'",
+    "prettier:fix": "prettier --write './apps/**/*.{js,mjs,cjs,json}'",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
     "fix": "npm run prettier:fix && turbo run fix"
@@ -19,5 +19,8 @@
   ],
   "dependencies": {
     "turbo": "^2.5.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
   }
 }
