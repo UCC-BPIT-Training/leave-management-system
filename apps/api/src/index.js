@@ -9,6 +9,10 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
+app.get('/ping', (req, res) => {
+  return res.json({ message: 'PONG' });
+});
+
 // Add more of your routes here
 
 // Error Handling Middleware, should always be the last
