@@ -1,5 +1,6 @@
 import { createPool } from 'mysql2';
 import { Kysely, MysqlDialect } from 'kysely';
+import process from 'node:process';
 
 const dialect = new MysqlDialect({
   pool: createPool({
