@@ -74,7 +74,7 @@ Create a simple Leave Management System that allows anyone to:
 ## 👀 Evaluation Focus
 
 - Clear UI and working routing
-- Proper use of `useeffect`, `useState` and form handling.
+- Proper use of `useEffect`, `useState` and form handling.
 - Filter and conditional buttons (cancel/edit/approve only if pending)
 - UI properly calling express endpoints
 - Clean code structure and separation
