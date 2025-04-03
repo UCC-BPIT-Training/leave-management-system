@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env DEBUG=api:* NODE_ENV=development node --env-file-if-exists=.env --watch-path=./src src/server.js",
+    "inspect": "cross-env DEBUG=api:* NODE_ENV=development node --env-file-if-exists=.env --inspect --watch-path=./src src/server.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "fix": "npm run lint:fix"
+  },
+  "imports": {
+    "#src/**/*": "./src/**/*.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.1.0",
+    "cors": "^2.8.5",
+    "express": "^5.0.1",
+    "kysely": "^0.27.6",
+    "mysql2": "^3.14.0"
+  }
+}
