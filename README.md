@@ -12,39 +12,39 @@ Create a simple Leave Management System that allows anyone to:
 
 ## ☀️ Core Features
 
-### File a Leave Request
+#### File a Leave Request
 
 - Fields: name, email, leave type (sick/vacation), reason, date from and date to
 - Status is `pending` by default
 
-### View Leave Requests
+#### View Leave Requests
 
 - Show list of all leave requests
 - Display: name, email, type, reason, dates (from & to) and status
 
-### Filter Requests
+#### Filter Requests
 
 - By email
 - By status (pending/approved/rejected) can be multiple
 - By date range
 
-### Update a Request
+#### Update a Request
 
 - Only if the request is still pending
 - Can update any field except status
 
-### Cancel a Request
+#### Cancel a Request
 
 - If status is `pending`, allow deletion
 
-### Approve or Reject Request
+#### Approve or Reject Request
 
 - Action buttons to approve or reject if status is `pending`
 - Optional: Add remarks
 
 ## 🚥 Suggested Routes
 
-### For UI
+#### For UI
 
 | Path                | Description                        |
 | :------------------ | :--------------------------------- |
@@ -54,7 +54,7 @@ Create a simple Leave Management System that allows anyone to:
 
 > 💡 Hint: You can use [`useParams`](https://reactrouter.com/api/hooks/useParams#useparams)
 
-### For API
+#### For API
 
 | Method | Endpoint                                                                 | Description                      |
 | :----- | :----------------------------------------------------------------------- | :------------------------------- |
